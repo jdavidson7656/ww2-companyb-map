@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ce415ef6b5267f98268c4b7bc61d4c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1ce415ef6b5267f98268c4b7bc61d4c3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1ce415ef6b5267f98268c4b7bc61d4c3 = L.map(
+                "map_1ce415ef6b5267f98268c4b7bc61d4c3",
+                {
+                    center: [50.5, 9.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8e285aed7df57fbd667e89c3127b3983 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var marker_ad80071b375d9b784231fa415a9a24a1 = L.marker(
+                [50.037, 6.001],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_6e2db7de12f4e4d5922e424b6cee2360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad80071b375d9b784231fa415a9a24a1.setIcon(icon_6e2db7de12f4e4d5922e424b6cee2360);
+        
+    
+        var popup_785a61b883fbb1e05342e6e9aad86508 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2c130780b135a37296fde30258cec5c = $(`<div id="html_f2c130780b135a37296fde30258cec5c" style="width: 100.0%; height: 100.0%;"><b>Hupperdange, Luxembourg</b><br>Start of advance</div>`)[0];
+            popup_785a61b883fbb1e05342e6e9aad86508.setContent(html_f2c130780b135a37296fde30258cec5c);
+        
+
+        marker_ad80071b375d9b784231fa415a9a24a1.bindPopup(popup_785a61b883fbb1e05342e6e9aad86508)
+        ;
+
+        
+    
+    
+            var marker_8f05c548c5226af576cc9d55da4c39da = L.marker(
+                [50.03, 6.012],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_5a1ce57012b39b3c5bece58c71ef92ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f05c548c5226af576cc9d55da4c39da.setIcon(icon_5a1ce57012b39b3c5bece58c71ef92ea);
+        
+    
+        var popup_f6bc738b1289d6b2cc4534ee861b87ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_905e5b3b09134e37d10ff67ca2b7e63c = $(`<div id="html_905e5b3b09134e37d10ff67ca2b7e63c" style="width: 100.0%; height: 100.0%;"><b>Kalborn, Luxembourg</b><br>Battalion CP</div>`)[0];
+            popup_f6bc738b1289d6b2cc4534ee861b87ce.setContent(html_905e5b3b09134e37d10ff67ca2b7e63c);
+        
+
+        marker_8f05c548c5226af576cc9d55da4c39da.bindPopup(popup_f6bc738b1289d6b2cc4534ee861b87ce)
+        ;
+
+        
+    
+    
+            var marker_2f346a09c04134b755c6a8a7cbc7eca0 = L.marker(
+                [50.05, 6.15],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_f48f25827294c365b0fe4d80f84c5e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f346a09c04134b755c6a8a7cbc7eca0.setIcon(icon_f48f25827294c365b0fe4d80f84c5e65);
+        
+    
+        var popup_e7a90b3122d5fdfa47a9304dd29b2e77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd0b69f8b3bd5d098625cea92fc738e = $(`<div id="html_9cd0b69f8b3bd5d098625cea92fc738e" style="width: 100.0%; height: 100.0%;"><b>Daleiden, Germany</b><br>Heavy infantry action</div>`)[0];
+            popup_e7a90b3122d5fdfa47a9304dd29b2e77.setContent(html_9cd0b69f8b3bd5d098625cea92fc738e);
+        
+
+        marker_2f346a09c04134b755c6a8a7cbc7eca0.bindPopup(popup_e7a90b3122d5fdfa47a9304dd29b2e77)
+        ;
+
+        
+    
+    
+            var marker_3a6a3afc81f59398250ef99e6f87ed0e = L.marker(
+                [50.11, 6.24],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_7474182a158cfad74e4acd2659d9bae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a6a3afc81f59398250ef99e6f87ed0e.setIcon(icon_7474182a158cfad74e4acd2659d9bae5);
+        
+    
+        var popup_1587d552701e217947c1790ce31a5734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_267ee6984111ca31f9ad1beef68be7d5 = $(`<div id="html_267ee6984111ca31f9ad1beef68be7d5" style="width: 100.0%; height: 100.0%;"><b>Lünebach, Germany</b><br>Prüm River crossing</div>`)[0];
+            popup_1587d552701e217947c1790ce31a5734.setContent(html_267ee6984111ca31f9ad1beef68be7d5);
+        
+
+        marker_3a6a3afc81f59398250ef99e6f87ed0e.bindPopup(popup_1587d552701e217947c1790ce31a5734)
+        ;
+
+        
+    
+    
+            var marker_30dbdaa44fbbb2b4ba1228dfabf1f77a = L.marker(
+                [50.12, 6.31],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_5e290ff656c3014e6be2415a75a86564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30dbdaa44fbbb2b4ba1228dfabf1f77a.setIcon(icon_5e290ff656c3014e6be2415a75a86564);
+        
+    
+        var popup_16a566583789c02dc095ae17746d2311 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf5102c3804e8684501fd4968399a94 = $(`<div id="html_aaf5102c3804e8684501fd4968399a94" style="width: 100.0%; height: 100.0%;"><b>Matzerath, Germany</b><br>Secured by Company B</div>`)[0];
+            popup_16a566583789c02dc095ae17746d2311.setContent(html_aaf5102c3804e8684501fd4968399a94);
+        
+
+        marker_30dbdaa44fbbb2b4ba1228dfabf1f77a.bindPopup(popup_16a566583789c02dc095ae17746d2311)
+        ;
+
+        
+    
+    
+            var marker_12ebb90b2831efa9f07ab3c34769ff00 = L.marker(
+                [50.065, 6.35],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_6f1129471469cfd6293bdf2fbd403dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12ebb90b2831efa9f07ab3c34769ff00.setIcon(icon_6f1129471469cfd6293bdf2fbd403dd9);
+        
+    
+        var popup_88e3457103d12432279d7806d6d496fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2450d0cc3bb980663a1afdb7b485654 = $(`<div id="html_f2450d0cc3bb980663a1afdb7b485654" style="width: 100.0%; height: 100.0%;"><b>Schönecken, Germany</b><br>Nims River bridgehead</div>`)[0];
+            popup_88e3457103d12432279d7806d6d496fc.setContent(html_f2450d0cc3bb980663a1afdb7b485654);
+        
+
+        marker_12ebb90b2831efa9f07ab3c34769ff00.bindPopup(popup_88e3457103d12432279d7806d6d496fc)
+        ;
+
+        
+    
+    
+            var marker_0e65a3b3654991b61cdf8a1db769692e = L.marker(
+                [50.06, 6.29],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_4b8bcb26be42373ec175a27494946d25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e65a3b3654991b61cdf8a1db769692e.setIcon(icon_4b8bcb26be42373ec175a27494946d25);
+        
+    
+        var popup_512bc6bc3c3618d74b0b5c38e100ef47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5c7631cf0755daa91cffd9149aea473 = $(`<div id="html_d5c7631cf0755daa91cffd9149aea473" style="width: 100.0%; height: 100.0%;"><b>Lützkampen, Germany</b><br>Rest area</div>`)[0];
+            popup_512bc6bc3c3618d74b0b5c38e100ef47.setContent(html_d5c7631cf0755daa91cffd9149aea473);
+        
+
+        marker_0e65a3b3654991b61cdf8a1db769692e.bindPopup(popup_512bc6bc3c3618d74b0b5c38e100ef47)
+        ;
+
+        
+    
+    
+            var marker_1b21079afd8955cef7dc2215cce0cc21 = L.marker(
+                [49.97, 8.24],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_d0679b85710050bb8e3ab37bc0219263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b21079afd8955cef7dc2215cce0cc21.setIcon(icon_d0679b85710050bb8e3ab37bc0219263);
+        
+    
+        var popup_f5026c9045b8c92d0797e8d6fd70ca99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578aa6d9aca022a881b71dd3534139e1 = $(`<div id="html_578aa6d9aca022a881b71dd3534139e1" style="width: 100.0%; height: 100.0%;"><b>Oppenheim, Germany</b><br>Rhine River crossing</div>`)[0];
+            popup_f5026c9045b8c92d0797e8d6fd70ca99.setContent(html_578aa6d9aca022a881b71dd3534139e1);
+        
+
+        marker_1b21079afd8955cef7dc2215cce0cc21.bindPopup(popup_f5026c9045b8c92d0797e8d6fd70ca99)
+        ;
+
+        
+    
+    
+            var marker_589aa6d3d753b60e2ca99493a7b779e8 = L.marker(
+                [50.11, 8.85],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_ee8076f0a787d6af0f210e5fa6b52ced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_589aa6d3d753b60e2ca99493a7b779e8.setIcon(icon_ee8076f0a787d6af0f210e5fa6b52ced);
+        
+    
+        var popup_cb98f0acdf8f99ee756a3747312ad26b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2d078ecc56ddc186b7fd408db85cf1 = $(`<div id="html_6a2d078ecc56ddc186b7fd408db85cf1" style="width: 100.0%; height: 100.0%;"><b>Mühlheim am Main, Germany</b><br>Main River crossing</div>`)[0];
+            popup_cb98f0acdf8f99ee756a3747312ad26b.setContent(html_6a2d078ecc56ddc186b7fd408db85cf1);
+        
+
+        marker_589aa6d3d753b60e2ca99493a7b779e8.bindPopup(popup_cb98f0acdf8f99ee756a3747312ad26b)
+        ;
+
+        
+    
+    
+            var marker_7bde78edbe84d99d5a4794e445062e3d = L.marker(
+                [50.22, 8.67],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_51cb71b0633b80632900ebabf54787b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bde78edbe84d99d5a4794e445062e3d.setIcon(icon_51cb71b0633b80632900ebabf54787b2);
+        
+    
+        var popup_0c4c0f5a56f18567793aa3f8bdca2842 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_792ced057461a3e17c7572529aff6f41 = $(`<div id="html_792ced057461a3e17c7572529aff6f41" style="width: 100.0%; height: 100.0%;"><b>Ober-Erlenbach, Germany</b><br>Bivouac & POW liberation</div>`)[0];
+            popup_0c4c0f5a56f18567793aa3f8bdca2842.setContent(html_792ced057461a3e17c7572529aff6f41);
+        
+
+        marker_7bde78edbe84d99d5a4794e445062e3d.bindPopup(popup_0c4c0f5a56f18567793aa3f8bdca2842)
+        ;
+
+        
+    
+    
+            var marker_c20fe5f4ce34ee88ea37f39fcbf2d636 = L.marker(
+                [50.29, 9.02],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_2a5647d4b2f42ac42e46a78fd32bce6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c20fe5f4ce34ee88ea37f39fcbf2d636.setIcon(icon_2a5647d4b2f42ac42e46a78fd32bce6e);
+        
+    
+        var popup_0b6f1fd9b971525066309f98d792d098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4eaddad993a94fa2384e3715cd56d3b = $(`<div id="html_a4eaddad993a94fa2384e3715cd56d3b" style="width: 100.0%; height: 100.0%;"><b>Hattenrod, Germany</b><br>Liberation of 800 U.S. POWs</div>`)[0];
+            popup_0b6f1fd9b971525066309f98d792d098.setContent(html_a4eaddad993a94fa2384e3715cd56d3b);
+        
+
+        marker_c20fe5f4ce34ee88ea37f39fcbf2d636.bindPopup(popup_0b6f1fd9b971525066309f98d792d098)
+        ;
+
+        
+    
+    
+            var marker_fd89a8c4b3cecded24f9eae548039774 = L.marker(
+                [50.94, 8.98],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_6c22f5cdea48cb87e1c3ec157f8ea52b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd89a8c4b3cecded24f9eae548039774.setIcon(icon_6c22f5cdea48cb87e1c3ec157f8ea52b);
+        
+    
+        var popup_c39057768a24d0f372f642f2208e9278 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b01a6531ec41d91a47b4535a2996c7c = $(`<div id="html_0b01a6531ec41d91a47b4535a2996c7c" style="width: 100.0%; height: 100.0%;"><b>Neumorschen, Germany</b><br>Fulda River bridgehead</div>`)[0];
+            popup_c39057768a24d0f372f642f2208e9278.setContent(html_0b01a6531ec41d91a47b4535a2996c7c);
+        
+
+        marker_fd89a8c4b3cecded24f9eae548039774.bindPopup(popup_c39057768a24d0f372f642f2208e9278)
+        ;
+
+        
+    
+    
+            var marker_51e02675c873e008ebc8c2c151c56038 = L.marker(
+                [50.95, 9.02],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_ec1276b236b20e23cc9fc14124fdc494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51e02675c873e008ebc8c2c151c56038.setIcon(icon_ec1276b236b20e23cc9fc14124fdc494);
+        
+    
+        var popup_5a77250b0e20ea1278fea2c7d26f322d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea6f61bfad02bf21d2d077d2b4289808 = $(`<div id="html_ea6f61bfad02bf21d2d077d2b4289808" style="width: 100.0%; height: 100.0%;"><b>Wichte, Germany</b><br>Advance toward Fulda</div>`)[0];
+            popup_5a77250b0e20ea1278fea2c7d26f322d.setContent(html_ea6f61bfad02bf21d2d077d2b4289808);
+        
+
+        marker_51e02675c873e008ebc8c2c151c56038.bindPopup(popup_5a77250b0e20ea1278fea2c7d26f322d)
+        ;
+
+        
+    
+    
+            var marker_bbb3a1441a244251230f0f7ef54b6778 = L.marker(
+                [51.21, 10.45],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_6131db94375e3dac85e77ef6b2308fa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbb3a1441a244251230f0f7ef54b6778.setIcon(icon_6131db94375e3dac85e77ef6b2308fa1);
+        
+    
+        var popup_4feca147bdb51307f4cfa035bf28638d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07ac8e7bac4b25d1c15d99c21369d6e6 = $(`<div id="html_07ac8e7bac4b25d1c15d99c21369d6e6" style="width: 100.0%; height: 100.0%;"><b>Mühlhausen, Germany</b><br>Major town cleared</div>`)[0];
+            popup_4feca147bdb51307f4cfa035bf28638d.setContent(html_07ac8e7bac4b25d1c15d99c21369d6e6);
+        
+
+        marker_bbb3a1441a244251230f0f7ef54b6778.bindPopup(popup_4feca147bdb51307f4cfa035bf28638d)
+        ;
+
+        
+    
+    
+            var marker_090b2d12204cba19c2198e6e7e62ce25 = L.marker(
+                [51.05, 12.133],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_a4574cb8abbea0e3afc4d335d8fa41b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_090b2d12204cba19c2198e6e7e62ce25.setIcon(icon_a4574cb8abbea0e3afc4d335d8fa41b4);
+        
+    
+        var popup_5c8726e8121c81aa2301ce60995cef88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a231acb8dbcadc0ed25496b5e99e3c31 = $(`<div id="html_a231acb8dbcadc0ed25496b5e99e3c31" style="width: 100.0%; height: 100.0%;"><b>Zeitz, Germany</b><br>Weisse Elster bridgehead</div>`)[0];
+            popup_5c8726e8121c81aa2301ce60995cef88.setContent(html_a231acb8dbcadc0ed25496b5e99e3c31);
+        
+
+        marker_090b2d12204cba19c2198e6e7e62ce25.bindPopup(popup_5c8726e8121c81aa2301ce60995cef88)
+        ;
+
+        
+    
+    
+            var marker_b0d341b0500a6aa1ba852e62ff3bbcd0 = L.marker(
+                [51.12, 12.82],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_54a61840af493c6148479ca87ee1b99a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0d341b0500a6aa1ba852e62ff3bbcd0.setIcon(icon_54a61840af493c6148479ca87ee1b99a);
+        
+    
+        var popup_8c0e84e04311ad9ad737ac3ca7bcb086 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1278fadf1f904dcd8cd7a058ee698d9a = $(`<div id="html_1278fadf1f904dcd8cd7a058ee698d9a" style="width: 100.0%; height: 100.0%;"><b>Rochlitz, Germany</b><br>Final April engagements</div>`)[0];
+            popup_8c0e84e04311ad9ad737ac3ca7bcb086.setContent(html_1278fadf1f904dcd8cd7a058ee698d9a);
+        
+
+        marker_b0d341b0500a6aa1ba852e62ff3bbcd0.bindPopup(popup_8c0e84e04311ad9ad737ac3ca7bcb086)
+        ;
+
+        
+    
+    
+            var marker_8b15a4a726b1e618c9ec0d2a7bdb80fc = L.marker(
+                [51.18, 12.75],
+                {}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+    
+            var icon_8be30107a04e0ccf2018fc4befde9ac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-screenshot", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b15a4a726b1e618c9ec0d2a7bdb80fc.setIcon(icon_8be30107a04e0ccf2018fc4befde9ac0);
+        
+    
+        var popup_85aac71caf4626ba77a824300be7b711 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f3ad0d5be2e1223660d687335df8114 = $(`<div id="html_2f3ad0d5be2e1223660d687335df8114" style="width: 100.0%; height: 100.0%;"><b>Klostergeringswalde, Germany</b><br>Company B holds the line</div>`)[0];
+            popup_85aac71caf4626ba77a824300be7b711.setContent(html_2f3ad0d5be2e1223660d687335df8114);
+        
+
+        marker_8b15a4a726b1e618c9ec0d2a7bdb80fc.bindPopup(popup_85aac71caf4626ba77a824300be7b711)
+        ;
+
+        
+    
+    
+            var poly_line_6709227b48b8c4cad72505aa0b4310e6 = L.polyline(
+                [[50.037, 6.001], [50.03, 6.012], [50.05, 6.15], [50.11, 6.24], [50.12, 6.31], [50.065, 6.35], [50.06, 6.29], [49.97, 8.24], [50.11, 8.85], [50.22, 8.67], [50.29, 9.02], [50.94, 8.98], [50.95, 9.02], [51.21, 10.45], [51.05, 12.133], [51.12, 12.82], [51.18, 12.75]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ce415ef6b5267f98268c4b7bc61d4c3);
+        
+</script>
+</html>
